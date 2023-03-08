@@ -9,15 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e934d71c-17a9-41ad-8504-039460f8dd5a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="e934d71c-17a9-41ad-8504-039460f8dd5a" name="Changes" comment="Wszystkie zmiany  :-)">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/Greeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/ConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/ConfigBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/HelloEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/HelloEndpoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/WfDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/WfDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="facelets" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +68,11 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RunManager">
@@ -154,10 +157,24 @@
       <option name="presentableId" value="Default" />
       <updated>1678195991614</updated>
       <workItem from="1678195992755" duration="1849000" />
+      <workItem from="1678262017994" duration="767000" />
+      <workItem from="1678273661502" duration="3078000" />
     </task>
+    <task id="LOCAL-00001" summary="Wszystkie zmiany  :-)">
+      <created>1678262167801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678262167801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Wszystkie zmiany  :-)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wszystkie zmiany  :-)" />
   </component>
 </project>
