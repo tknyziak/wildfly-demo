@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Path("/hello")
 public class HelloEndpoint {
@@ -21,6 +22,8 @@ public class HelloEndpoint {
     @Inject
     GreetingController greetingController;
 
+    @Inject
+    GreetingMapper greetingMapper;
 
     @GET
     @Path("/say")
@@ -32,11 +35,9 @@ public class HelloEndpoint {
     @GET
     @Path("/greetings/all")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Greeting> getGreetings() {
+    public List<GreetingDTO> getGreetings() {
         List<Greeting> allGreetings = greetingController.getAllGreetings();
-        allGreetings.forEach(g -> g.setLang(g.getLang().toUpperCase()));
-        allGreetings.forEach(g -> greetingController.saveGreeting(g));
-        return allGreetings;
+        return allGreetings.stream().map(greetingMapper::fromGreeting).collect(Collectors.toList());
     }
 
 }
