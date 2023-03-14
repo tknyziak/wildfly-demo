@@ -8,14 +8,30 @@
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="jakarta.faces.html">
+      xmlns:h="jakarta.faces.html"
+      xmlns:jsf="jakarta.faces"
+      xmlns:ui="jakarta.faces.facelets">
 
-<h:head>
+<head jsf:id="head">
     <title>Title</title>
-</h:head>
+</head>
 
-<h:body>
+<body jsf:id="body">
   <p>Hello from Facelet</p>
-</h:body>
+
+
+  <ul>
+      <ui:repeat value="#{textBean.strings}" var="i">
+          <li>#{i}</li>
+      </ui:repeat>
+  </ul>
+
+  <form jsf:id="inputForm">
+      <input type="text" jsf:value="#{textBean.currentString}"/>
+      <button jsf:action="#{textBean.addCurrentString}">Dodaj</button>
+  </form>
+
+
+</body>
 
 </html>
