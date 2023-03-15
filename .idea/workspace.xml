@@ -9,8 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e934d71c-17a9-41ad-8504-039460f8dd5a" name="Changes" comment="Mapstruct">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/_10a/wfdemo/TextBackingBean.java" afterDir="false" />
+    <list default="true" id="e934d71c-17a9-41ad-8504-039460f8dd5a" name="Changes" comment="JSF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
     </list>
@@ -167,7 +166,8 @@
       <workItem from="1678358589307" duration="2344000" />
       <workItem from="1678435437194" duration="600000" />
       <workItem from="1678461140551" duration="1000" />
-      <workItem from="1678786051593" duration="2071000" />
+      <workItem from="1678786051593" duration="2611000" />
+      <workItem from="1678888220247" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="Wszystkie zmiany  :-)">
       <created>1678262167801</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678359711834</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JSF">
+      <created>1678788233350</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678788233350</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +207,8 @@
     <MESSAGE value="Wszystkie zmiany  :-)" />
     <MESSAGE value="Podłączone JPA i JAX-RS" />
     <MESSAGE value="Mapstruct" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mapstruct" />
+    <MESSAGE value="JSF" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSF" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

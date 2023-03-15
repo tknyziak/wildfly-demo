@@ -10,7 +10,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="jakarta.faces.html"
       xmlns:jsf="jakarta.faces"
-      xmlns:ui="jakarta.faces.facelets">
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:f="jakarta.faces.core">
 
 <head jsf:id="head">
     <title>Title</title>
@@ -20,17 +21,20 @@
   <p>Hello from Facelet</p>
 
 
-  <ul>
+  <ul jsf:id="stringList">
       <ui:repeat value="#{textBean.strings}" var="i">
           <li>#{i}</li>
       </ui:repeat>
   </ul>
 
   <form jsf:id="inputForm">
-      <input type="text" jsf:value="#{textBean.currentString}"/>
-      <button jsf:action="#{textBean.addCurrentString}">Dodaj</button>
-  </form>
+      <input type="text" jsf:id="currentStringInput" jsf:value="#{textBean.currentString}">
+          <f:ajax execute="currentStringInput" render=":stringList currentStringInput"
+                  event="keyup" listener="#{textBean.addCurrentString()}"
+                 delay="300"/>
+      </input>
 
+  </form>
 
 </body>
 
